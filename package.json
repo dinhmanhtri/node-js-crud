@@ -1,0 +1,22 @@
+{
+  "name": "js-crud",
+  "version": "1.0.0",
+  "description": "- Client gửi một request lên server -> server response lại nội\r dung website (HTML, CSS, JS, ...).\r ### Npm\r -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinhmanhtri/node-js-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinhmanhtri/node-js-crud/issues"
+  },
+  "homepage": "https://github.com/dinhmanhtri/node-js-crud#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
