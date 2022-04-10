@@ -8,3 +8,6 @@ dung website (HTML, CSS, JS, ...).
   + -exact để cài đặt chính xác version mong muốn.
 - File package-lock.json là nơi ghi chi tiết về dependencies trong file package.json.
 - .gitignore là nơi chứa những file mà chúng ta không muốn đưa lên git.
+- Chạy: `npm i` để cài đặt toàn bộ package trong dependencies file package.json.
+### Express
+
