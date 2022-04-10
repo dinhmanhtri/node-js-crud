@@ -1,10 +1,16 @@
-const express = require("express"); // import package express
+import express from "express"; // import package express
+import configViewEngine from "./configs/viewEngine";
+require("dotenv").config();
+
 const app = express(); // Tạo instance, tạo app để sử dụng tất cả các tính năng của express
-const port = 3000;
+const port = process.env.PORT || 3000;
+
+configViewEngine(app);
 
 app.get("/", (req, res) => {
-  res.send("Hello!");
+  res.render("index.ejs");
 }); // Khai báo route
+
 
 app.get("/about", (req, res) => {
   res.send(`My name is Tri`);
@@ -13,4 +19,3 @@ app.get("/about", (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 }); // Chạy ứng dụng
-
